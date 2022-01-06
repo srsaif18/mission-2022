@@ -72,6 +72,7 @@ footer {
 }
 #footer-tag {
   font-family: "Lobster", cursive;
+  font-weight: 500;
 }
 .mission-bg {
   background-color: #4f9da61a;
@@ -98,4 +99,10 @@ footer {
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+.orange-cls {
+  color: #ffad5a;
+}
+.red-cls {
+  color: #ff5959;
 }
