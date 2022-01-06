@@ -106,3 +106,10 @@ footer {
 .red-cls {
   color: #ff5959;
 }
+#mission-tag {
+  border-left: 10px solid;
+  border-left-color: #ff5959;
+  padding-left: 30px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
