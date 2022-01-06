@@ -1,30 +1,101 @@
 body {
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 0;
   font-family: "Poppins", sans-serif;
+  color: #000;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
+  margin: 20px 0;
 }
-.blackish-color {
-  color: #333333;
+h2,
+h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #000;
 }
-.orange-color {
-  color: #ffad5a;
-}
-section {
-  display: flex;
+.container {
+  max-width: 1140px;
+  padding: 60px 0;
+  margin: auto;
+  clear: both;
 }
 .half-width {
-  width: 50%;
-  padding-left: 5%;
+  max-width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
+
 .half-width img {
-  width: 80%;
+  width: 60%;
 }
-.explore-btn {
+.develop-area {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: 10%;
+}
+.community-area {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: 70%;
+  background-position-x: 85%;
+}
+.service-item {
+  max-width: 20%;
+  display: inline-block;
+  margin: 0px 15px 20px 15px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 376px;
+  width: 460;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+#mission-header {
+  text-align: center;
+}
+.service-item img {
+  width: 141px;
+}
+footer {
+  text-align: center;
+  background-color: #0b0d17;
+  color: white;
+  padding: 3px;
+  width: auto;
+}
+#footer-tag {
+  font-family: "Lobster", cursive;
+}
+.mission-bg {
+  background-color: #4f9da61a;
+}
+.vission-bg {
+  background-color: #ff59591a;
+}
+.goals-bg {
+  background-color: #fff4d6;
+}
+.mission-grid {
+  padding-left: 390px;
+}
+.app-area {
+  padding-left: 150px;
+}
+.app-area img {
+  width: 600px;
+}
+.btn {
   text-decoration: none;
   background-color: #ff5959;
+  padding: 10px 30px;
+  border-radius: 5px;
   color: white;
   font-weight: 700;
-  padding: 10px 40px;
-  border-radius: 5px;
 }
